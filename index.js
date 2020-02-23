@@ -9,6 +9,6 @@ class Animal {
 
 class Cat extends Animal {
   speak() {
-    return
+    return `${this.name} says meow!`
   }
 }
