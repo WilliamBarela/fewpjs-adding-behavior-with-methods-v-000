@@ -21,6 +21,6 @@ class Dog extends Animal {
 
 class Bird extends Animal {
   speak() {
-    return `${this.name} says squawk!`
+    return (this.sex === "male") ? `It's me! ${}, the parrot!` : `${this.name} says squawk!`
   }
 }
