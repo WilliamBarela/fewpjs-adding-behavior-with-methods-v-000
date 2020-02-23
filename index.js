@@ -12,3 +12,15 @@ class Cat extends Animal {
     return `${this.name} says meow!`
   }
 }
+
+class Dog extends Animal {
+  speak () {
+    return `${this.name} says woof!`
+  }
+}
+
+class Bird extends Animal {
+  speak() {
+    return `${this.name} says squawk!`
+  }
+}
